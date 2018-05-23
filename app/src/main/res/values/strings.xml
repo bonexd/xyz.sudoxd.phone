@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">sudo productions</string>
+    <string name="welcome_text">welcome to sudo productions. app is currently under development.</string>
 </resources>
