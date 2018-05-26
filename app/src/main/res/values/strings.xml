@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">sudo productions</string>
     <string name="welcome_text">welcome to sudo productions. app is currently under development.</string>
+    <string name="rom_button">Android ROMs</string>
+    <string name="rom_frontpage_devces_text">Devices</string>
+    <string name="rom_frontpage_intro_text">Tap the device of your choosing for its Specs and available ROMs</string>
+    <string name="copyright">2017-2018 sudo productions</string>
+    <string name="specs">Specifications</string>
+    <string name="title_activity_onem7">onem7</string>
+    <string name="onem7">HTC One M7</string>
 </resources>
