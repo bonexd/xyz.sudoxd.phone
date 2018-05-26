@@ -5,14 +5,14 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class rom extends AppCompatActivity {
+public class htcmain extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rom);
+        setContentView(R.layout.activity_htcmain);
     }
-    public void htcmain(View v) {
-        startActivity(new Intent(this, htcmain.class));
+    public void onem7(View v) {
+        startActivity(new Intent(this, onem7.class));
     }
 }
