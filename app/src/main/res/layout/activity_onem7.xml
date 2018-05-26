@@ -7,6 +7,20 @@
     tools:context=".onem7">
 
     <TextView
+        android:id="@+id/textView9"
+        android:layout_width="197dp"
+        android:layout_height="20dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/roboto"
+        android:text="@string/copyright"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
         android:id="@+id/textView6"
         android:layout_width="0dp"
         android:layout_height="33dp"
@@ -14,7 +28,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="@string/onem7"
+        android:text="@string/onem7name"
         android:textAlignment="textStart"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -22,16 +36,30 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="0dp"
-        android:layout_height="46dp"
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="323dp"
+        android:layout_height="0dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="@string/specs"
+        android:text="Release: March 2013\nSIM Type: Micro SIM\nDisplay: 4.7' 1080x1920 LCD, Gorilla Glass 2\nStock Android Versions: 4.1.2 - 5.0 - HTC Sense\nCPU: Qualcomm Snapdragon 600 Quad Core 1.7GHz\n GPU: Adreno 320\nRAM: 2GB\nStorage: 32 or 64GB, No MicroSD Slot\nCamera: 4MP Autofocus, LED Flash\n- Video:1080p30, 720p60, HDR, Stereo\nBattery: Non-User Replacable 2300mAh Li-Po"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="ROMs"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
 </android.support.constraint.ConstraintLayout>
