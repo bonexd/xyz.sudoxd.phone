@@ -31,10 +31,11 @@
         </activity>
         <activity
             android:name=".onem7"
-            android:parentActivityName=".htcmain"></activity>
-
-        <activity android:name=".htcmain"
-            android:parentActivityName=".rom"></activity>
+            android:parentActivityName=".htcmain" />
+        <activity
+            android:name=".htcmain"
+            android:parentActivityName=".rom" />
+        <activity android:name=".onem7rom"></activity>
     </application>
 
 </manifest>
