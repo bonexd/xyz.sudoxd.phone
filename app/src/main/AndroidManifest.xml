@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.sudosudoo.sudoproductions">
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_descriptor"
@@ -31,11 +33,17 @@
         </activity>
         <activity
             android:name=".onem7"
-            android:parentActivityName=".htcmain" />
+            android:parentActivityName=".htconeseries" />
         <activity
             android:name=".htcmain"
             android:parentActivityName=".rom" />
-        <activity android:name=".onem7rom"></activity>
+        <activity
+            android:name=".onem7rom"
+            android:parentActivityName=".onem7" />
+        <activity
+            android:name=".htconeseries"
+            android:parentActivityName=".htcmain">
+        </activity>
     </application>
 
 </manifest>
