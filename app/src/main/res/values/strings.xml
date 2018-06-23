@@ -1,15 +1,34 @@
 <resources>
     <string name="app_name">sudo productions</string>
-    <string name="welcome_text">welcome to sudo productions. app is currently under development. for full content please view my website.</string>
-    <string name="rom_button">Android ROMs</string>
+    <string name="welcome_text">Welcome to sudo productions</string>
+    <string name="rom_button">Android Devices</string>
     <string name="rom_frontpage_devces_text">Devices</string>
     <string name="rom_frontpage_intro_text">Choose a Manufacturer:</string>
-    <string name="copyright">2017-2018 sudo productions</string>
+    <string name="copyright">2017-2018 sudo productions.</string>
     <string name="specs">Specifications</string>
     <string name="title_activity_onem7">onem7</string>
     <string name="onem7name">HTC One M7</string>
+    <string name="onem8name">HTC One M8</string>
     <string name="onem7rompagetitle">Custom ROMs for HTC One M7</string>
+    <string name="onem8rompagetitle">Custom ROMs for HTC One M8</string>
     <string name="websitelinkbutton">sudo productions website</string>
     <string name="htcmain_frontpage_intro_text">Choose a Series:</string>
     <string name="htcone_frontpage_intro_text">HTC One Series</string>
+    <string name="htconem7ll_frontpage_intro_text">HTC One M7 Lollipop ROMs</string>
+    <string name="htconem7mm_frontpage_intro_text">HTC One M7 Marshmallow ROMs</string>
+    <string name="htconem7oreo_frontpage_intro_text">HTC One M7 Oreo ROMs</string>
+    <string name="htconem7nougat_frontpage_intro_text">HTC One M7 Nougat ROMs</string>
+    <string name="htconem8ll_frontpage_intro_text">HTC One M8 Lollipop ROMs</string>
+    <string name="htconem8mm_frontpage_intro_text">HTC One M8 Marshmallow ROMs</string>
+    <string name="htconem8mmse_frontpage_intro_text">HTC One M8 MM Sense ROMs</string>
+    <string name="htconem7ll_gpeplus">GPE+ and GPE</string>
+    <string name="rr">Resurrection Remix</string>
+    <string name="xenonhd">XenonHD</string>
+    <string name="AICP">AICP</string>
+    <string name="TeslaOS">TeslaOS</string>
+    <string name="Androidrevolution">Android Revolution</string>
+    <string name="miui8">MIUI 8</string>
+    <string name="skydragongpe">SkyDragon GPE</string>
+    <string name="wolla">WOLLA</string>
+    <string name="viperone">ViperOne</string>
 </resources>

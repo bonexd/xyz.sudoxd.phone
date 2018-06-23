@@ -22,6 +22,13 @@ public class htconeseries extends AppCompatActivity {
         } else {
             ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
         }
-
+    }
+    public void onem8(View v) {
+        startActivity(new Intent(this, onem8.class));
+        if (Build.VERSION.SDK_INT >= 26) {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
+        } else {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
+        }
     }
 }
