@@ -24,7 +24,6 @@ public class MainActivity extends AppCompatActivity {
         } else {
             ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
         }
-
     }
     private void goToUrl (String url) {
         Uri uriUrl = Uri.parse(url);
@@ -33,6 +32,22 @@ public class MainActivity extends AppCompatActivity {
     }
     public void mainpagerom(View v)  {
         startActivity(new Intent(this, rom.class));
+        if (Build.VERSION.SDK_INT >= 26) {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
+        } else {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
+        }
+    }
+    public void YouTube (View view) {
+        goToUrl ( "https://www.youtube.com/channel/UChOhRJegtq2C4er7GFYPX8A");
+        if (Build.VERSION.SDK_INT >= 26) {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
+        } else {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
+        }
+    }
+    public void GitHub (View view) {
+        goToUrl ( "https://github.com/sudosudoo/io.github.sudosudoo.sudoproductions");
         if (Build.VERSION.SDK_INT >= 26) {
             ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
         } else {
