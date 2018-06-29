@@ -21,6 +21,7 @@
     <string name="htconem8ll_frontpage_intro_text">HTC One M8 Lollipop ROMs</string>
     <string name="htconem8mm_frontpage_intro_text">HTC One M8 Marshmallow ROMs</string>
     <string name="htconem8mmse_frontpage_intro_text">HTC One M8 MM Sense ROMs</string>
+    <string name="htconem8noug_frontpage_intro_text">HTC One M8 Nougat ROMs</string>
     <string name="htconem7ll_gpeplus">GPE+ and GPE</string>
     <string name="rr">Resurrection Remix</string>
     <string name="xenonhd">XenonHD</string>
@@ -31,4 +32,7 @@
     <string name="skydragongpe">SkyDragon GPE</string>
     <string name="wolla">WOLLA</string>
     <string name="viperone">ViperOne</string>
+    <string name="slim7">Slim7</string>
+    <string name="lineage">LineageOS</string>
+    <string name="exlineage">eXtended LineageOS</string>
 </resources>

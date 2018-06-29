@@ -14,8 +14,17 @@
         <item name="android:statusBarColor">@android:color/transparent</item>
     </style>
 
+    <style name="Theme.Custom.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="actionBarStyle">@style/Theme.AppCompat</item>
+    </style>
+
+    <style name="Theme.AppThemeDark.NoActionBar" parent="Theme.AppCompat.NoActionBar" />
+
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
+    <style name="Theme.AppTheme.DayNight.DarkActionBar" parent="Theme.AppCompat.DayNight.DarkActionBar" />
+
+    <style name="Theme.AppThemeDark" parent="Theme.AppCompat" />
 </resources>
