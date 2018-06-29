@@ -31,7 +31,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/roboto_medium"
-        android:onClick="onem7oreo"
+        android:onClick="onem8oreo"
         android:text="Android Oreo (8.0 - 8.1)"
         android:textAlignment="center"
         android:textAllCaps="false"

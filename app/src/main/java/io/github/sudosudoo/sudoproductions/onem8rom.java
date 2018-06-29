@@ -47,4 +47,12 @@ public class onem8rom extends AppCompatActivity {
             ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
         }
     }
+    public void onem8oreo(View v) {
+        startActivity(new Intent(this, onem8romoreo.class));
+        if (Build.VERSION.SDK_INT >= 26) {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
+        } else {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
+        }
+    }
 }
