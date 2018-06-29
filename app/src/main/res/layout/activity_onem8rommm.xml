@@ -4,64 +4,63 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".onem7romoreo">
+    tools:context=".onem8rommm">
 
     <Button
-        android:id="@+id/button31"
+        android:id="@+id/button26"
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/roboto_medium"
-        android:onClick="onem7oreorr"
-        android:text="@string/rr"
+        android:onClick="gotoonem8mmskydraggpe"
+        android:text="@string/skydragongpe"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button30" />
+        app:layout_constraintTop_toBottomOf="@+id/button25" />
 
     <Button
-        android:id="@+id/button30"
+        android:id="@+id/button25"
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/roboto_medium"
-        android:onClick="onem7oreoaicp"
-        android:text="@string/AICP"
+        android:onClick="gotoonem8mmmiui"
+        android:text="@string/miui8"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     <TextView
-        android:id="@+id/textView24"
+        android:id="@+id/textView20"
         android:layout_width="0dp"
         android:layout_height="74dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="WARNING:\nALL OREO ROMS FOR THIS DEVICE ARE IN VERY EARLY BETA. STABILITY CAN NOT BE COMFIRMED. USE WITH CAUTION."
+        android:text="MIUI is the Xiaomi version of Android, GApps may cause problems on it\n\nFor battery life, i would recommend SkyDragon GPE."
         android:textSize="14sp"
-        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/textView19"
         android:layout_width="0dp"
         android:layout_height="33dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="@string/htconem7oreo_frontpage_intro_text"
+        android:text="@string/htconem8mm_frontpage_intro_text"
         android:textAlignment="textStart"
         android:textSize="20sp"
         android:textStyle="bold"
