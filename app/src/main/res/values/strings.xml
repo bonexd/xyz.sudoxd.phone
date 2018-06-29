@@ -9,11 +9,13 @@
     <string name="title_activity_onem7">onem7</string>
     <string name="onem7name">HTC One M7</string>
     <string name="onem8name">HTC One M8</string>
+    <string name="pixelname">Google Pixel</string>
     <string name="onem7rompagetitle">Custom ROMs for HTC One M7</string>
     <string name="onem8rompagetitle">Custom ROMs for HTC One M8</string>
     <string name="websitelinkbutton">sudo productions website</string>
     <string name="htcmain_frontpage_intro_text">Choose a Series:</string>
     <string name="htcone_frontpage_intro_text">HTC One Series</string>
+    <string name="pixelseries_frontpage_intro_text">Pixel Series</string>
     <string name="htconem7ll_frontpage_intro_text">HTC One M7 Lollipop ROMs</string>
     <string name="htconem7mm_frontpage_intro_text">HTC One M7 Marshmallow ROMs</string>
     <string name="htconem7oreo_frontpage_intro_text">HTC One M7 Oreo ROMs</string>

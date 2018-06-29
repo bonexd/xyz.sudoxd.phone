@@ -8,23 +8,15 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class rom extends AppCompatActivity {
+public class pixelseries extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rom);
+        setContentView(R.layout.activity_pixelseries);
     }
-    public void htcmain(View v) {
-        startActivity(new Intent(this, htcmain.class));
-        if (Build.VERSION.SDK_INT >= 26) {
-            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
-        } else {
-            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
-        }
-    }
-    public void googlemain(View v) {
-        startActivity(new Intent(this, googlemain.class));
+    public void pixel(View v) {
+        startActivity(new Intent(this, pixel.class));
         if (Build.VERSION.SDK_INT >= 26) {
             ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
         } else {

@@ -71,7 +71,16 @@
             android:parentActivityName=".onem8rom" />
         <activity
             android:name=".onem8romoreo"
-            android:parentActivityName=".onem8rom"/>
+            android:parentActivityName=".onem8rom" />
+        <activity
+            android:name=".pixel"
+            android:parentActivityName=".pixelseries" />
+        <activity
+            android:name=".googlemain"
+            android:parentActivityName=".rom" />
+        <activity
+            android:name=".pixelseries"
+            android:parentActivityName=".googlemain"/>
     </application>
 
 </manifest>
