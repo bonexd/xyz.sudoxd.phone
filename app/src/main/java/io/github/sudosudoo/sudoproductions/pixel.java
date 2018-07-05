@@ -29,4 +29,12 @@ public class pixel extends AppCompatActivity {
             ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
         }
     }
+    public void pixelrom(View v) {
+        startActivity(new Intent(this, pixelrom.class));
+        if (Build.VERSION.SDK_INT >= 26) {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
+        } else {
+            ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
+        }
+    }
 }

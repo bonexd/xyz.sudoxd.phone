@@ -12,6 +12,7 @@
     <string name="pixelname">Google Pixel</string>
     <string name="onem7rompagetitle">Custom ROMs for HTC One M7</string>
     <string name="onem8rompagetitle">Custom ROMs for HTC One M8</string>
+    <string name="pixelrompagetitle">Custom ROMs for Google Pixel</string>
     <string name="websitelinkbutton">sudo productions website</string>
     <string name="htcmain_frontpage_intro_text">Choose a Series:</string>
     <string name="htcone_frontpage_intro_text">HTC One Series</string>
@@ -25,6 +26,8 @@
     <string name="htconem8mmse_frontpage_intro_text">HTC One M8 MM Sense ROMs</string>
     <string name="htconem8noug_frontpage_intro_text">HTC One M8 Nougat ROMs</string>
     <string name="htconem8oreo_frontpage_intro_text">HTC One M8 Oreo ROMs</string>
+    <string name="pixelnougat_frontpage_intro_text">Google Pixel Nougat ROMs</string>
+    <string name="pixeloreo_frontpage_intro_text">Google Pixel Oreo ROMs</string>
     <string name="htconem7ll_gpeplus">GPE+ and GPE</string>
     <string name="rr">Resurrection Remix</string>
     <string name="xenonhd">XenonHD</string>

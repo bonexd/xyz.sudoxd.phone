@@ -80,7 +80,16 @@
             android:parentActivityName=".rom" />
         <activity
             android:name=".pixelseries"
-            android:parentActivityName=".googlemain"/>
+            android:parentActivityName=".googlemain" />
+        <activity
+            android:name=".pixelrom"
+            android:parentActivityName=".pixel" />
+        <activity
+            android:name=".pixelromnougat"
+            android:parentActivityName=".pixelrom" />
+        <activity
+            android:name=".pixelromoreo"
+            android:parentActivityName=".pixelrom"/>
     </application>
 
 </manifest>
