@@ -42,4 +42,6 @@
     <string name="lineage">LineageOS</string>
     <string name="exlineage">eXtended LineageOS</string>
     <string name="crdroid">crDroid</string>
+    <string name="purenexus">PureNexus</string>
+    <string name="aospextended">AOSP Extended</string>
 </resources>
