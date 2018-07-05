@@ -37,4 +37,5 @@ public class onem8 extends AppCompatActivity {
             ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(30);
         }
     }
+    //¯\_(ツ)_/¯
 }
