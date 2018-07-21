@@ -44,4 +44,6 @@
     <string name="crdroid">crDroid</string>
     <string name="purenexus">PureNexus</string>
     <string name="aospextended">AOSP Extended</string>
+    <string name="devices_label_short">Devices</string>
+    <string name="devices_label_long">Devices</string>
 </resources>

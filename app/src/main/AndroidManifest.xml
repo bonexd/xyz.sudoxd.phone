@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-    <!-- the name "sudo productions" and the infinity triangle are all copyrights of sudo productions 2017-2018 -->
+<?xml version="1.0" encoding="utf-8"?><!-- the name "sudo productions" and the infinity triangle are all copyrights of sudo productions 2017-2018 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.sudosudoo.sudoproductions">
 
@@ -16,11 +15,11 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            <meta-data android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
         </activity>
-
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
@@ -90,7 +89,10 @@
             android:parentActivityName=".pixelrom" />
         <activity
             android:name=".pixelromoreo"
-            android:parentActivityName=".pixelrom"/>
+            android:parentActivityName=".pixelrom" />
+        <activity
+            android:name=".htc10"
+            android:parentActivityName=".htconeseries"/>
     </application>
 
 </manifest>
