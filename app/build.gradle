@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "28.0.0-rc2"
+    buildToolsVersion "28.0.2"
     defaultConfig {
         applicationId "io.github.sudosudoo.sudoproductions"
         minSdkVersion 16
@@ -36,5 +36,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-//the name "sudo productions" and the infinity triangle are all trademarks of sudo productions 2017-2018
+//the name "sudo productions" and the triangle "S" logo are all trademarks of sudo productions 2017-2018
 
