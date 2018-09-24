@@ -61,7 +61,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="@string/pixelname"
+        android:text="@string/htcpixelname"
         android:textAlignment="textStart"
         android:textSize="24sp"
         android:textStyle="bold"
