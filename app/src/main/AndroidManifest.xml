@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><!-- the name "sudo productions" and the infinity triangle are all copyrights of sudo productions 2017-2018 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.sudosudoo.sudoproductions">
-
     <uses-permission android:name="android.permission.VIBRATE" />
-
     <application
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_descriptor"
@@ -17,13 +15,13 @@
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-            <meta-data android:name="android.app.shortcuts"
+            <meta-data
+                android:name="android.app.shortcuts"
                 android:resource="@xml/shortcuts" />
         </activity>
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
-
         <activity
             android:name=".rom"
             android:parentActivityName=".MainActivity" />
@@ -92,7 +90,9 @@
             android:parentActivityName=".pixelrom" />
         <activity
             android:name=".htc10"
-            android:parentActivityName=".htconeseries"/>
+            android:parentActivityName=".htconeseries" />
+        <activity
+            android:name=".htc10rom"
+            android:parentActivityName=".htc10"/>
     </application>
-
 </manifest>
