@@ -36,5 +36,4 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 }
 
-//the name "sudo productions" and the triangle "S" logo are all trademarks of sudo productions 2017-2018
 
