@@ -5,7 +5,7 @@ an app that has android devices and stuff. barely gets updated or worked on, jus
 
 ### versions
 ![GitHub](https://img.shields.io/badge/Full%20Release-v1.3.3-green.svg) |
-![GitHub](https://img.shields.io/badge/Pre%20Release-v1.3.4%20beta%201-orange.svg) |
+![GitHub](https://img.shields.io/badge/Pre%20Release-v1.3.4%20beta%201-orange.svg)
 
 ### license
-[![Packagist License][badge_license]](LICENSE.md)
+![Github](https://img.shields.io/badge/license-EUPL%201.2-green.svg)
