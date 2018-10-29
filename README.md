@@ -7,8 +7,8 @@ an app that has android devices and stuff. barely gets updated or worked on, jus
 ###versions
 
 | --- | --- |
-| **Full Release**** | ![GitHub tag (latest SemVer pre-release)](https://img.shields.io/github/tag-pre/expressjs/express.svg) |
-| **Pre-Release**** | [![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/expressjs/express.svg) |
+| **Full Release**** | ![GitHub](https://img.shields.io/badge/Full%20Release-v1.3.3-green.svg) |
+| **Pre-Release****  | ![GitHub](https://img.shields.io/badge/Pre%20Release-v1.3.4%20beta%201-orange.svg) |
 
 ### license
 Licensed under the EUPL
