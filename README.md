@@ -8,4 +8,4 @@ an app that has android devices and stuff. barely gets updated or worked on, jus
 ![GitHub](https://img.shields.io/badge/Pre%20Release-v1.3.4%20beta%201-orange.svg) |
 
 ### license
-![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg)
+[![Packagist License][badge_license]](LICENSE.md)
