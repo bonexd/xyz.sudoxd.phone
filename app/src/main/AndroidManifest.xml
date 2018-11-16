@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!-- the name "sudo productions" and the infinity triangle are all copyrights of sudo productions 2017-2018 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.sudosudoo.sudoproductions">
+    package="io.github.sudoxd.sudophones">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 
@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppThemeDark">
-        <activity android:name=".MainActivity">
+        <activity android:name="io.github.sudoxd.sudophones.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,78 +29,78 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name=".rom"
-            android:parentActivityName=".MainActivity" />
+            android:name="io.github.sudoxd.sudophones.rom"
+            android:parentActivityName="io.github.sudoxd.sudophones.MainActivity" />
         <activity
-            android:name=".onem7"
-            android:parentActivityName=".htconeseries" />
+            android:name="io.github.sudoxd.sudophones.onem7"
+            android:parentActivityName="io.github.sudoxd.sudophones.htconeseries" />
         <activity
-            android:name=".htcmain"
-            android:parentActivityName=".rom" />
+            android:name="io.github.sudoxd.sudophones.htcmain"
+            android:parentActivityName="io.github.sudoxd.sudophones.rom" />
         <activity
-            android:name=".onem7rom"
-            android:parentActivityName=".onem7" />
+            android:name="io.github.sudoxd.sudophones.onem7rom"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem7" />
         <activity
-            android:name=".htconeseries"
-            android:parentActivityName=".htcmain" />
+            android:name="io.github.sudoxd.sudophones.htconeseries"
+            android:parentActivityName="io.github.sudoxd.sudophones.htcmain" />
         <activity
-            android:name=".onem7romll"
-            android:parentActivityName=".onem7rom" />
+            android:name="io.github.sudoxd.sudophones.onem7romll"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem7rom" />
         <activity
-            android:name=".onem7rommm"
-            android:parentActivityName=".onem7rom" />
+            android:name="io.github.sudoxd.sudophones.onem7rommm"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem7rom" />
         <activity
-            android:name=".onem7romnougat"
-            android:parentActivityName=".onem7rom" />
+            android:name="io.github.sudoxd.sudophones.onem7romnougat"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem7rom" />
         <activity
-            android:name=".onem7romoreo"
-            android:parentActivityName=".onem7rom" />
+            android:name="io.github.sudoxd.sudophones.onem7romoreo"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem7rom" />
         <activity
-            android:name=".onem8"
-            android:parentActivityName=".htconeseries" />
+            android:name="io.github.sudoxd.sudophones.onem8"
+            android:parentActivityName="io.github.sudoxd.sudophones.htconeseries" />
         <activity
-            android:name=".onem8rom"
-            android:parentActivityName=".onem8" />
+            android:name="io.github.sudoxd.sudophones.onem8rom"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem8" />
         <activity
-            android:name=".onem8romll"
-            android:parentActivityName=".onem8rom" />
+            android:name="io.github.sudoxd.sudophones.onem8romll"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem8rom" />
         <activity
-            android:name=".onem8rommm"
-            android:parentActivityName=".onem8rom" />
+            android:name="io.github.sudoxd.sudophones.onem8rommm"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem8rom" />
         <activity
-            android:name=".onem8rommmse"
-            android:parentActivityName=".onem8rom" />
+            android:name="io.github.sudoxd.sudophones.onem8rommmse"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem8rom" />
         <activity
-            android:name=".onem8romnoug"
-            android:parentActivityName=".onem8rom" />
+            android:name="io.github.sudoxd.sudophones.onem8romnoug"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem8rom" />
         <activity
-            android:name=".onem8romoreo"
-            android:parentActivityName=".onem8rom" />
+            android:name="io.github.sudoxd.sudophones.onem8romoreo"
+            android:parentActivityName="io.github.sudoxd.sudophones.onem8rom" />
         <activity
-            android:name=".pixel"
-            android:parentActivityName=".pixelseries" />
+            android:name="io.github.sudoxd.sudophones.pixel"
+            android:parentActivityName="io.github.sudoxd.sudophones.pixelseries" />
         <activity
-            android:name=".googlemain"
-            android:parentActivityName=".rom" />
+            android:name="io.github.sudoxd.sudophones.googlemain"
+            android:parentActivityName="io.github.sudoxd.sudophones.rom" />
         <activity
-            android:name=".pixelseries"
-            android:parentActivityName=".googlemain" />
+            android:name="io.github.sudoxd.sudophones.pixelseries"
+            android:parentActivityName="io.github.sudoxd.sudophones.googlemain" />
         <activity
-            android:name=".pixelrom"
-            android:parentActivityName=".pixel" />
+            android:name="io.github.sudoxd.sudophones.pixelrom"
+            android:parentActivityName="io.github.sudoxd.sudophones.pixel" />
         <activity
-            android:name=".pixelromnougat"
-            android:parentActivityName=".pixelrom" />
+            android:name="io.github.sudoxd.sudophones.pixelromnougat"
+            android:parentActivityName="io.github.sudoxd.sudophones.pixelrom" />
         <activity
-            android:name=".pixelromoreo"
-            android:parentActivityName=".pixelrom" />
+            android:name="io.github.sudoxd.sudophones.pixelromoreo"
+            android:parentActivityName="io.github.sudoxd.sudophones.pixelrom" />
         <activity
-            android:name=".htc10"
-            android:parentActivityName=".htconeseries" />
+            android:name="io.github.sudoxd.sudophones.htc10"
+            android:parentActivityName="io.github.sudoxd.sudophones.htconeseries" />
         <activity
-            android:name=".htc10rom"
-            android:parentActivityName=".htc10" />
-        <activity android:name=".htc10romnougat"></activity>
+            android:name="io.github.sudoxd.sudophones.htc10rom"
+            android:parentActivityName="io.github.sudoxd.sudophones.htc10" />
+        <activity android:name="io.github.sudoxd.sudophones.htc10romnougat"></activity>
     </application>
 
 </manifest>

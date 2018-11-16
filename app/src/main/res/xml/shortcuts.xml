@@ -8,7 +8,7 @@
         android:shortcutLongLabel="@string/devices_label_long">
         <intent
             android:action="android.intent.action.VIEW"
-            android:targetPackage="io.github.sudosudoo.sudoproductions"
-            android:targetClass="io.github.sudosudoo.sudoproductions.rom" />
+            android:targetPackage="io.github.sudoxd.sudophones"
+            android:targetClass="io.github.sudoxd.sudophones.rom" />
     </shortcut>
 </shortcuts>
