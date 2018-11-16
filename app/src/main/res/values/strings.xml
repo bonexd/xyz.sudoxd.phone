@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">sudos cool phone directory</string>
-    <string name="welcome_text">Welcome to sudo productions</string>
+    <string name="welcome_text">Welcome to the sudo android directory</string>
     <string name="rom_button">Android Devices</string>
     <string name="rom_frontpage_devces_text">Devices</string>
     <string name="rom_frontpage_intro_text">Choose a Manufacturer:</string>

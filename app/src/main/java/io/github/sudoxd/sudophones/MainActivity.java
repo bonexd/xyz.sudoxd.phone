@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void goTosudo (View view) {
-        goToUrl ( "https://sudosudoo.github.io/");
+        goToUrl ( "https://sudoxd.github.io/");
         if (Build.VERSION.SDK_INT >= 26) {
             ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
         } else {
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
     public void GitHub (View view) {
-        goToUrl ( "https://github.com/sudosudoo/io.github.sudosudoo.sudoproductions");
+        goToUrl ( "https://github.com/sudoxd/sudos-cool-phone-directory");
         if (Build.VERSION.SDK_INT >= 26) {
             ((Vibrator) getSystemService(VIBRATOR_SERVICE)).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE));
         } else {
