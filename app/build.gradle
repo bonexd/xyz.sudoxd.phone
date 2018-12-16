@@ -5,7 +5,7 @@ android {
     buildToolsVersion '28.0.3'
     defaultConfig {
         applicationId "io.github.sudoxd.sudophones"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 20180924
         // version code: yyyymmddhh. only increase version code on full release builds.
@@ -17,6 +17,9 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    aaptOptions {
+        cruncherEnabled = false
     }
 }
 

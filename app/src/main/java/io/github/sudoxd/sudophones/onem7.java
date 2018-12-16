@@ -25,7 +25,7 @@ public class onem7 extends AppCompatActivity {
         }
     }
     private void goToUrl (String url) {
-        Uri uriUrl = Uri.parse(url);
+        Uri uriUrl = Uri.parse("https://web.archive.org/web/20150905110511/http://www.htc.com/us/smartphones/htc-one-m7/");
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
         startActivity(launchBrowser);
     }
