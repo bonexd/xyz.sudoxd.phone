@@ -15,20 +15,13 @@ android {
         setProperty("archivesBaseName", applicationId + "-" + getDate() + "(" + versionName + ")")
     }
 
+    flavorDimensions "releases"
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-        }
-        nightly {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            applicationIdSuffix ".nightly"
-            versionNameSuffix "-nightly"
-        }
-        beta {
-            applicationIdSuffix ".beta"
-            debuggable true
+            versionNameSuffix "-release"
         }
     }
     lintOptions {
@@ -36,6 +29,19 @@ android {
         // Or, if you prefer, you can continue to check for errors in release builds,
         // but continue the build even when errors are found:
         abortOnError false
+    }
+    productFlavors {
+        standard {
+            dimension "releases"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            versionNameSuffix "-release"
+        }
+        nightly {
+            dimension "releases"
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationIdSuffix ".nightly"
+            versionNameSuffix "-nightly"
+        }
     }
 }
 
