@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><!-- the name "sudo productions" and the infinity triangle are all copyrights of sudo productions 2017-2018 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.sudoxd.sudophones">
+    package="xyz.sudoxd.phone">
 
     <uses-permission android:name="android.permission.VIBRATE" />
 

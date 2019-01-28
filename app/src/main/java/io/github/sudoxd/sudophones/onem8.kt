@@ -9,6 +9,7 @@ import android.os.Vibrator
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import xyz.sudoxd.phone.R
 
 class onem8 : AppCompatActivity() {
 

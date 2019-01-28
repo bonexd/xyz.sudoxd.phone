@@ -8,12 +8,14 @@ import android.os.Vibrator
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import xyz.sudoxd.phone.R
 
 class htconeseries : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_htconeseries)
+        setContentView(
+                R.layout.activity_htconeseries)
     }
 
     fun onem7(v: View) {
