@@ -1,3 +1,5 @@
+[go back](index.md)
+
 # Installation
 
 ### the easy way:
