@@ -9,6 +9,7 @@ an app that has android devices and stuff. barely gets updated or worked on, jus
 
 ### license
 ![Github](https://img.shields.io/badge/license-EUPL%201.2-green.svg)
+The full readout of the license can be found [here](license.md)
 
 ### Downloads
 [Stable and Beta Releases](https://github.com/sudoxd/sudos-cool-phone-directory/releases)
