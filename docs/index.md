@@ -12,6 +12,7 @@ an app that has android devices and stuff. barely gets updated or worked on, jus
 
 ### Downloads
 [Stable and Beta Releases](https://github.com/sudoxd/sudos-cool-phone-directory/releases)
+
 [Nightly Releases](https://github.com/sudoxd/xyz.sudoxd.phone-nightly)
 
 ### Installation
