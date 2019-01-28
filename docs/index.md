@@ -5,11 +5,14 @@ an app that has android devices and stuff. barely gets updated or worked on, jus
 
 ### versions
 ![GitHub](https://img.shields.io/badge/Full%20Release-v1.3.3-green.svg) |
-![GitHub](https://img.shields.io/badge/Pre%20Release-v1.3.4%20beta%202-orange.svg)
+![GitHub](https://img.shields.io/badge/Pre%20Release-v1.3.4%20beta%203-orange.svg)
 
 ### license
 ![Github](https://img.shields.io/badge/license-EUPL%201.2-green.svg)
-eupl because i dont give a shit, steal if you want to.
 
 ### Downloads
-https://github.com/sudoxd/sudos-cool-phone-directory/releases
+[Stable and Beta Releases](https://github.com/sudoxd/sudos-cool-phone-directory/releases)
+[Nightly Releases](https://github.com/sudoxd/xyz.sudoxd.phone-nightly)
+
+### Installation
+Find out how to install [here](https://app.sudoxd.xyz/installation.md)
