@@ -16,4 +16,4 @@ an app that has android devices and stuff. barely gets updated or worked on, jus
 [Nightly Releases](https://github.com/sudoxd/xyz.sudoxd.phone-nightly)
 
 ### Installation
-Find out how to install [here](https://phone.sudoxd.xyz/installation.md)
+Find out how to install [here](installation.md)
