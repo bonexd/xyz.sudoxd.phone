@@ -1,4 +1,4 @@
-package io.github.sudoxd.sudophones
+package xyz.sudoxd.phone
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

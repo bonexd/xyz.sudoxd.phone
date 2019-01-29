@@ -1,4 +1,4 @@
-package io.github.sudoxd.sudophones
+package xyz.sudoxd.phone
 
 import android.content.Context
 import android.content.Intent
