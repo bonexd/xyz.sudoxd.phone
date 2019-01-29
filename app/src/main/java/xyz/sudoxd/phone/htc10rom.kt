@@ -27,7 +27,16 @@ class htc10rom : AppCompatActivity() {
     }
 
     fun htc10romoreo(v: View) {
-        startActivity(Intent(this, pixelromoreo::class.java))
+        startActivity(Intent(this, htc10romoreo::class.java))
+        if (Build.VERSION.SDK_INT >= 26) {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
+        } else {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
+        }
+    }
+
+    fun htc10rompie(v: View) {
+        startActivity(Intent(this, htc10rompie::class.java))
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
         } else {

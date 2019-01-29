@@ -7,12 +7,12 @@
     tools:context=".htc10rom">
 
     <Button
-        android:id="@+id/button59"
+        android:id="@+id/button68"
         android:layout_width="0dp"
         android:layout_height="46dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_medium"
         android:onClick="htc10romoreo"
         android:text="Android Oreo (8.0 - 8.1)"
@@ -22,6 +22,23 @@
         app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button60" />
+
+    <Button
+        android:id="@+id/button59"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="htc10rompie"
+        android:text="Android Pie (9.0)"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button68" />
 
     <Button
         android:id="@+id/button60"
@@ -44,11 +61,11 @@
         android:id="@+id/textView37"
         android:layout_width="0dp"
         android:layout_height="33dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="@string/pixelrompagetitle"
+        android:text="Custom ROMs for HTC 10"
         android:textAlignment="textStart"
         android:textSize="21sp"
         android:textStyle="bold"

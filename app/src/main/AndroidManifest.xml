@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppThemeDark">
-        <activity android:name="xyz.sudoxd.phone.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,89 +29,98 @@
             android:resource="@array/preloaded_fonts" />
 
         <activity
-            android:name="xyz.sudoxd.phone.rom"
-            android:parentActivityName="xyz.sudoxd.phone.MainActivity" />
+            android:name=".rom"
+            android:parentActivityName=".MainActivity" />
         <activity
-            android:name="xyz.sudoxd.phone.onem7"
-            android:parentActivityName="xyz.sudoxd.phone.htconeseries" />
+            android:name=".onem7"
+            android:parentActivityName=".htconeseries" />
         <activity
-            android:name="xyz.sudoxd.phone.htcmain"
-            android:parentActivityName="xyz.sudoxd.phone.rom" />
+            android:name=".htcmain"
+            android:parentActivityName=".rom" />
         <activity
-            android:name="xyz.sudoxd.phone.onem7rom"
-            android:parentActivityName="xyz.sudoxd.phone.onem7" />
+            android:name=".onem7rom"
+            android:parentActivityName=".onem7" />
         <activity
-            android:name="xyz.sudoxd.phone.htconeseries"
-            android:parentActivityName="xyz.sudoxd.phone.htcmain" />
+            android:name=".htconeseries"
+            android:parentActivityName=".htcmain" />
         <activity
-            android:name="xyz.sudoxd.phone.onem7romll"
-            android:parentActivityName="xyz.sudoxd.phone.onem7rom" />
+            android:name=".onem7romll"
+            android:parentActivityName=".onem7rom" />
         <activity
-            android:name="xyz.sudoxd.phone.onem7rommm"
-            android:parentActivityName="xyz.sudoxd.phone.onem7rom" />
+            android:name=".onem7rommm"
+            android:parentActivityName=".onem7rom" />
         <activity
-            android:name="xyz.sudoxd.phone.onem7romnougat"
-            android:parentActivityName="xyz.sudoxd.phone.onem7rom" />
+            android:name=".onem7romnougat"
+            android:parentActivityName=".onem7rom" />
         <activity
-            android:name="xyz.sudoxd.phone.onem7romoreo"
-            android:parentActivityName="xyz.sudoxd.phone.onem7rom" />
+            android:name=".onem7romoreo"
+            android:parentActivityName=".onem7rom" />
         <activity
-            android:name="xyz.sudoxd.phone.onem8"
-            android:parentActivityName="xyz.sudoxd.phone.htconeseries" />
+            android:name=".onem8"
+            android:parentActivityName=".htconeseries" />
         <activity
-            android:name="xyz.sudoxd.phone.onem8rom"
-            android:parentActivityName="xyz.sudoxd.phone.onem8" />
+            android:name=".onem8rom"
+            android:parentActivityName=".onem8" />
         <activity
-            android:name="xyz.sudoxd.phone.onem8romll"
-            android:parentActivityName="xyz.sudoxd.phone.onem8rom" />
+            android:name=".onem8romll"
+            android:parentActivityName=".onem8rom" />
         <activity
-            android:name="xyz.sudoxd.phone.onem8rommm"
-            android:parentActivityName="xyz.sudoxd.phone.onem8rom" />
+            android:name=".onem8rommm"
+            android:parentActivityName=".onem8rom" />
         <activity
-            android:name="xyz.sudoxd.phone.onem8rommmse"
-            android:parentActivityName="xyz.sudoxd.phone.onem8rom" />
+            android:name=".onem8rommmse"
+            android:parentActivityName=".onem8rom" />
         <activity
-            android:name="xyz.sudoxd.phone.onem8romnoug"
-            android:parentActivityName="xyz.sudoxd.phone.onem8rom" />
+            android:name=".onem8romnoug"
+            android:parentActivityName=".onem8rom" />
         <activity
-            android:name="xyz.sudoxd.phone.onem8romoreo"
-            android:parentActivityName="xyz.sudoxd.phone.onem8rom" />
+            android:name=".onem8romoreo"
+            android:parentActivityName=".onem8rom" />
         <activity
-            android:name="xyz.sudoxd.phone.pixel"
-            android:parentActivityName="xyz.sudoxd.phone.pixelseries" />
+            android:name=".pixel"
+            android:parentActivityName=".pixelseries" />
         <activity
-            android:name="xyz.sudoxd.phone.googlemain"
-            android:parentActivityName="xyz.sudoxd.phone.rom" />
+            android:name=".googlemain"
+            android:parentActivityName=".rom" />
         <activity
-            android:name="xyz.sudoxd.phone.pixelseries"
-            android:parentActivityName="xyz.sudoxd.phone.googlemain" />
+            android:name=".pixelseries"
+            android:parentActivityName=".googlemain" />
         <activity
-            android:name="xyz.sudoxd.phone.pixelrom"
-            android:parentActivityName="xyz.sudoxd.phone.pixel" />
+            android:name=".pixelrom"
+            android:parentActivityName=".pixel" />
         <activity
-            android:name="xyz.sudoxd.phone.pixelromnougat"
-            android:parentActivityName="xyz.sudoxd.phone.pixelrom" />
+            android:name=".pixelromnougat"
+            android:parentActivityName=".pixelrom" />
         <activity
-            android:name="xyz.sudoxd.phone.pixelromoreo"
-            android:parentActivityName="xyz.sudoxd.phone.pixelrom" />
+            android:name=".pixelromoreo"
+            android:parentActivityName=".pixelrom" />
         <activity
-            android:name="xyz.sudoxd.phone.htc10"
-            android:parentActivityName="xyz.sudoxd.phone.htconeseries" />
+            android:name=".htc10"
+            android:parentActivityName=".htconeseries" />
         <activity
-            android:name="xyz.sudoxd.phone.htc10rom"
-            android:parentActivityName="xyz.sudoxd.phone.htc10" />
+            android:name=".htc10rom"
+            android:parentActivityName=".htc10" />
         <activity
-            android:name="xyz.sudoxd.phone.htc10romnougat"
-            android:parentActivityName="xyz.sudoxd.phone.htc10rom" />
+            android:name=".htc10romnougat"
+            android:parentActivityName=".htc10rom" />
         <activity
-            android:name="xyz.sudoxd.phone.motomain"
-            android:parentActivityName="xyz.sudoxd.phone.rom" />
+            android:name=".motomain"
+            android:parentActivityName=".rom" />
         <activity
-            android:name="xyz.sudoxd.phone.motogseries"
-            android:parentActivityName="xyz.sudoxd.phone.motomain" />
+            android:name=".motogseries"
+            android:parentActivityName=".motomain" />
         <activity
-            android:name="xyz.sudoxd.phone.motog5plus"
-            android:parentActivityName="xyz.sudoxd.phone.motogseries"/>
+            android:name=".motog5plus"
+            android:parentActivityName=".motogseries" />
+        <activity
+            android:name=".htc10rompie"
+            android:parentActivityName=".htc10rom"/>
+        <activity
+            android:name=".htc10romoreo"
+            android:parentActivityName=".htc10rom"/>
+        <activity
+            android:name=".motog5plusrom"
+            android:parentActivityName=".motog5plus"/>
     </application>
 
 </manifest>
