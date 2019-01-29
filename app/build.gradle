@@ -12,7 +12,7 @@ android {
         // version code: yyyymmddhh. only increase version code on full release builds.
         versionName "1.3.4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        setProperty("archivesBaseName", applicationId + "-" + getDate() + "(" + versionName + ")")
+        setProperty("archivesBaseName", applicationId + "-" + getDate() + "-" + versionName)
     }
     flavorDimensions "releases"
     buildTypes {

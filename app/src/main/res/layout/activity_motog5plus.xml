@@ -1,77 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".rom">
+    tools:context=".motog5plus">
 
     <Button
-        android:id="@+id/button48"
+        android:id="@+id/button67"
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:onClick="motomain"
-        android:text="Motorola"
+        android:onClick="gotomotog5pwebpage"
+        android:text="Manufacturer Webpage"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button43" />
+        app:layout_constraintTop_toBottomOf="@+id/button66" />
 
     <Button
-        android:id="@+id/button43"
+        android:id="@+id/button66"
         android:layout_width="0dp"
         android:layout_height="46dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:onClick="googlemain"
-        android:text="Google"
+        android:text="ROMs"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textView41"
         android:layout_width="0dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
+        android:text="Using XT1687 Specs\n\nRelease: February, 2017\nSIM Type: Nano-SIM\nDisplay: 5.2' 1080x1920 IPS LCD, Gorilla Glass 3\nStock Android Versions: 7.0 - 8.1 - LGUI\nCPU: Qualcomm Snapdragon 625 - Octa-core 2.0Ghz Cortex-A53\nGPU: Adreno 506\nRAM: 2/4GB\nStorage: 32GB, 64GB, microSD up to 256GB\nRear Camera: 12MP (f/1.7) Dual Pixel PDAF, dual-tone/dual-LED flash, Panorama\n- Video: 2160p30, 1080p60\nFront Camera: 5MP (f/2.2)\nBattery: Non User Replaceable 3000mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: Yes, Front\nCharging Port: microUSB"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="@string/rom_frontpage_intro_text"
+        android:text="Moto G5 Plus"
         android:textAlignment="textStart"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="0dp"
-        android:layout_height="46dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/roboto_medium"
-        android:onClick="htcmain"
-        android:text="HTC"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
 </android.support.constraint.ConstraintLayout>
-</ScrollView>
