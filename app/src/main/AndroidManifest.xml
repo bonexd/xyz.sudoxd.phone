@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><!-- the name "sudo productions" and the infinity triangle are all copyrights of sudo productions 2017-2018 -->
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="xyz.sudoxd.phone">
 
@@ -100,7 +100,18 @@
         <activity
             android:name="io.github.sudoxd.sudophones.htc10rom"
             android:parentActivityName="io.github.sudoxd.sudophones.htc10" />
-        <activity android:name="io.github.sudoxd.sudophones.htc10romnougat"></activity>
+        <activity
+            android:name="io.github.sudoxd.sudophones.htc10romnougat"
+            android:parentActivityName="io.github.sudoxd.sudophones.htc10rom" />
+        <activity
+            android:name="io.github.sudoxd.sudophones.motomain"
+            android:parentActivityName="io.github.sudoxd.sudophones.rom" />
+        <activity
+            android:name="io.github.sudoxd.sudophones.motogseries"
+            android:parentActivityName="io.github.sudoxd.sudophones.motomain" />
+        <activity
+            android:name="io.github.sudoxd.sudophones.motog5plus"
+            android:parentActivityName="io.github.sudoxd.sudophones.motogseries"/>
     </application>
 
 </manifest>
