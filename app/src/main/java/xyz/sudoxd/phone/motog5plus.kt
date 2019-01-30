@@ -31,4 +31,13 @@ class motog5plus : AppCompatActivity() {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
         }
     }
+
+    fun motog5ptreble(view: View) {
+        goToUrl("https://forum.xda-developers.com/g5-plus/development/dev-project-treble-potter-t3801292")
+        if (Build.VERSION.SDK_INT >= 26) {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
+        } else {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
+        }
+    }
 }
