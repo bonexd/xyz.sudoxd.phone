@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppThemeDark">
-
+        <activity android:name=".galaxys"></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -131,6 +131,12 @@
         <activity
             android:name=".samsungmain"
             android:parentActivityName=".rom" />
+        <activity
+            android:name=".galaxysseries"
+            android:parentActivityName=".samsungmain"/>
+        <activity
+            android:name=".galaxys"
+            android:parentActivityName=".galaxysseries"/>
     </application>
 
 </manifest>
