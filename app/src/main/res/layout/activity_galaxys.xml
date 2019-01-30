@@ -6,4 +6,66 @@
     android:layout_height="match_parent"
     tools:context="xyz.sudoxd.phone.galaxys">
 
+    <Button
+        android:id="@+id/button58"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="gotogalaxyswebpage"
+        android:text="Manufacturer Webpage"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button57" />
+
+    <Button
+        android:id="@+id/button57"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="htc10rom"
+        android:text="ROMs"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Release: June, 2010\nSIM Type: Mini SIM\nDisplay: 4.0' 480x800 Super AMOLED, Gorilla Glass\nStock Android Versions: 2.1 - 2.3 - TouchWiz UI 3\nCPU: Cortex A8 1.0GHz\nGPU: PowerVR SGX540\nRAM: 512MB\nStorage: 8 or 16GB, microSD Expandable up to 32GB\nRear Camera: 5MP Autofocus\n- Video: 720p30\nFront Camera: VGA\nBattery: User Replaceable 1500mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: No\nCharging Port: microUSB "
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Samsung Galaxy S"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>

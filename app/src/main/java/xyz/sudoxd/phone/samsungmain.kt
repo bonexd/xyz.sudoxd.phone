@@ -17,7 +17,7 @@ class samsungmain : AppCompatActivity() {
     }
 
     fun samsungsseries(v: View) {
-        startActivity(Intent(this, samsungsseries::class.java))
+        startActivity(Intent(this, galaxysseries::class.java))
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
         } else {
