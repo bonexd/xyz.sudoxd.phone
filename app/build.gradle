@@ -32,7 +32,6 @@ android {
         standard {
             dimension "releases"
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            versionNameSuffix "-release"
         }
         nightly {
             dimension "releases"
