@@ -12,6 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppThemeDark">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -114,13 +115,16 @@
             android:parentActivityName=".motogseries" />
         <activity
             android:name=".htc10rompie"
-            android:parentActivityName=".htc10rom"/>
+            android:parentActivityName=".htc10rom" />
         <activity
             android:name=".htc10romoreo"
-            android:parentActivityName=".htc10rom"/>
+            android:parentActivityName=".htc10rom" />
         <activity
             android:name=".motog5plusrom"
-            android:parentActivityName=".motog5plus"/>
+            android:parentActivityName=".motog5plus" />
+        <activity
+            android:name=".motog5plusromimportant"
+            android:parentActivityName=".motog5plusrom"/>
     </application>
 
 </manifest>
