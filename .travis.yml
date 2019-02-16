@@ -1,0 +1,17 @@
+language: android
+android:
+  components:
+    - tools
+    - platform-tools
+    - build-tools-26.0.2
+
+    # SDK Version for Testing on
+    - android-28
+
+    # Additional components
+    - extra-google-google_play_services
+    - extra-google-m2repository
+    - extra-android-m2repository
+
+    # Emulator
+    - sys-img-x86-android-28
