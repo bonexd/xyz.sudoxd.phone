@@ -133,10 +133,13 @@
             android:parentActivityName=".rom" />
         <activity
             android:name=".galaxysseries"
-            android:parentActivityName=".samsungmain"/>
+            android:parentActivityName=".samsungmain" />
         <activity
             android:name=".galaxys"
-            android:parentActivityName=".galaxysseries"/>
+            android:parentActivityName=".galaxysseries" />
+        <activity
+            android:name=".galaxysrom"
+            android:parentActivityName=".galaxys"/>
     </application>
 
 </manifest>
