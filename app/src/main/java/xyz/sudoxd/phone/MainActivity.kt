@@ -44,7 +44,7 @@ class MainActivity : AppCompatActivity() {
 
 
     fun GitHub(view: View) {
-        goToUrl("https://github.com/sudoxd/sudos-cool-phone-directory")
+        goToUrl("https://github.com/sudoxd/xyz.sudoxd.phone")
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
         } else {
