@@ -18,3 +18,4 @@ android:
 
 script:
   - ./gradlew assemble
+  - ./gradlew assembleNightlyDebug
