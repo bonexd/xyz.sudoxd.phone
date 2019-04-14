@@ -52,4 +52,5 @@
     <string name="devices_label_long">Devices</string>
     <string name="motogseries">Moto G Series</string>
     <string name="title_activity_samsungsseries">samsungsseries</string>
+    <string name="versionname">$versionName</string>
 </resources>
