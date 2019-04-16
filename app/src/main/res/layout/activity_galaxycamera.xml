@@ -14,7 +14,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:onClick="gotogalaxyswebpage"
+        android:onClick="gotogalaxycamerawebpage"
         android:text="Manufacturer Webpage"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
