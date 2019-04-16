@@ -1,61 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
-<android.support.constraint.ConstraintLayout
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    tools:context="xyz.sudoxd.phone.samsungmain">
+    android:layout_height="match_parent"
+    tools:context="xyz.sudoxd.phone.galaxycamera">
 
     <Button
-        android:id="@+id/button83"
+        android:id="@+id/button58"
         android:layout_width="0dp"
         android:layout_height="46dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:onClick="samsungsseries"
-        android:text="Galaxy S"
+        android:onClick="gotogalaxyswebpage"
+        android:text="Manufacturer Webpage"
         android:textAllCaps="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView48" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="0dp"
-        android:layout_height="46dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
-        android:fontFamily="@font/roboto_medium"
-        android:onClick="samsunggcseries"
-        android:text="Galaxy Camera"
-        android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button83" />
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
 
     <TextView
-        android:id="@+id/textView48"
+        android:id="@+id/textView36"
         android:layout_width="0dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="No GSM Voice Communication\nGC110 is availaible with no 3/4G band support\n\nRelease: November, 2012\nSIM Type: Micro SIM\nDisplay: 4.8' 720x1280 LCD, Gorilla Glass 2\nStock Android Versions: 4.1 - 4.1.2 - TouchWiz UI\nCPU: Exynos 4410 Quad Core 1.4 GHz\nGPU: Mali-400MP4\nRAM: 1GB\nStorage: 4GB, microSD Expandable up to 64GB\nRear Camera: 16.3MP, 12x Optical Zoom, Autofocus\n- Video: 1080p30, 512p120\nBattery: User Replaceable 1650mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: No\nCharging Port: microUSB "
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_medium"
-        android:text="@string/htcmain_frontpage_intro_text"
+        android:text="Samsung Galaxy Camera"
         android:textAlignment="textStart"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
 </android.support.constraint.ConstraintLayout>
-</ScrollView>

@@ -70,6 +70,9 @@
             android:name=".samsungmain"
             android:parentActivityName=".rom" />
         <activity
+            android:name=".galaxygcseries"
+            android:parentActivityName=".samsungmain" />
+        <activity
             android:name=".galaxysseries"
             android:parentActivityName=".samsungmain" />
         <activity
@@ -81,6 +84,9 @@
         <activity
             android:name=".galaxys3"
             android:parentActivityName=".galaxysseries" />
+        <activity
+            android:name=".galaxycamera"
+            android:parentActivityName=".galaxygcseries"/>
     </application>
 
 </manifest>
