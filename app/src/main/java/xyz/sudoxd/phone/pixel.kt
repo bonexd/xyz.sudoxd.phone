@@ -32,4 +32,13 @@ class pixel : AppCompatActivity() {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
         }
     }
+
+    fun gotopixelxlwebpage(view: View) {
+        goToUrl("https://www.android.com/intl/en_au/phones/pixel/")
+        if (Build.VERSION.SDK_INT >= 26) {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
+        } else {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
+        }
+    }
 }
