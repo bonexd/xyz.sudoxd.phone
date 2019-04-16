@@ -40,44 +40,11 @@
             android:name=".htcmain"
             android:parentActivityName=".rom" />
         <activity
-            android:name=".onem7rom"
-            android:parentActivityName=".onem7" />
-        <activity
             android:name=".htconeseries"
             android:parentActivityName=".htcmain" />
         <activity
-            android:name=".onem7romll"
-            android:parentActivityName=".onem7rom" />
-        <activity
-            android:name=".onem7rommm"
-            android:parentActivityName=".onem7rom" />
-        <activity
-            android:name=".onem7romnougat"
-            android:parentActivityName=".onem7rom" />
-        <activity
-            android:name=".onem7romoreo"
-            android:parentActivityName=".onem7rom" />
-        <activity
             android:name=".onem8"
             android:parentActivityName=".htconeseries" />
-        <activity
-            android:name=".onem8rom"
-            android:parentActivityName=".onem8" />
-        <activity
-            android:name=".onem8romll"
-            android:parentActivityName=".onem8rom" />
-        <activity
-            android:name=".onem8rommm"
-            android:parentActivityName=".onem8rom" />
-        <activity
-            android:name=".onem8rommmse"
-            android:parentActivityName=".onem8rom" />
-        <activity
-            android:name=".onem8romnoug"
-            android:parentActivityName=".onem8rom" />
-        <activity
-            android:name=".onem8romoreo"
-            android:parentActivityName=".onem8rom" />
         <activity
             android:name=".pixel"
             android:parentActivityName=".pixelseries" />
@@ -88,23 +55,8 @@
             android:name=".pixelseries"
             android:parentActivityName=".googlemain" />
         <activity
-            android:name=".pixelrom"
-            android:parentActivityName=".pixel" />
-        <activity
-            android:name=".pixelromnougat"
-            android:parentActivityName=".pixelrom" />
-        <activity
-            android:name=".pixelromoreo"
-            android:parentActivityName=".pixelrom" />
-        <activity
             android:name=".htc10"
             android:parentActivityName=".htconeseries" />
-        <activity
-            android:name=".htc10rom"
-            android:parentActivityName=".htc10" />
-        <activity
-            android:name=".htc10romnougat"
-            android:parentActivityName=".htc10rom" />
         <activity
             android:name=".motomain"
             android:parentActivityName=".rom" />
@@ -115,21 +67,6 @@
             android:name=".motog5plus"
             android:parentActivityName=".motogseries" />
         <activity
-            android:name=".htc10rompie"
-            android:parentActivityName=".htc10rom" />
-        <activity
-            android:name=".htc10romoreo"
-            android:parentActivityName=".htc10rom" />
-        <activity
-            android:name=".motog5plusrom"
-            android:parentActivityName=".motog5plus" />
-        <activity
-            android:name=".motog5plusromimportant"
-            android:parentActivityName=".motog5plusrom" />
-        <activity
-            android:name=".motog5plusrompie"
-            android:parentActivityName=".motog5plusrom" />
-        <activity
             android:name=".samsungmain"
             android:parentActivityName=".rom" />
         <activity
@@ -138,9 +75,6 @@
         <activity
             android:name=".galaxys"
             android:parentActivityName=".galaxysseries" />
-        <activity
-            android:name=".galaxysrom"
-            android:parentActivityName=".galaxys"/>
     </application>
 
 </manifest>

@@ -18,15 +18,6 @@ class onem8 : AppCompatActivity() {
         setContentView(R.layout.activity_onem8)
     }
 
-    fun onem8rom(v: View) {
-        startActivity(Intent(this, onem8rom::class.java))
-        if (Build.VERSION.SDK_INT >= 26) {
-            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
-        } else {
-            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
-        }
-    }
-
     private fun goToUrl(url: String) {
         val uriUrl = Uri.parse(url)
         val launchBrowser = Intent(Intent.ACTION_VIEW, uriUrl)

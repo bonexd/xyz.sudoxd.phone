@@ -18,15 +18,6 @@ class onem7 : AppCompatActivity() {
         setContentView(R.layout.activity_onem7)
     }
 
-    fun onem7rom(v: View) {
-        startActivity(Intent(this, onem7rom::class.java))
-        if (Build.VERSION.SDK_INT >= 26) {
-            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
-        } else {
-            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
-        }
-    }
-
     private fun goToUrl(url: String) {
         val uriUrl = Uri.parse("https://web.archive.org/web/20150905110511/http://www.htc.com/us/smartphones/htc-one-m7/")
         val launchBrowser = Intent(Intent.ACTION_VIEW, uriUrl)
