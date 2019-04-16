@@ -10,9 +10,9 @@
         android:id="@+id/button38"
         android:layout_width="0dp"
         android:layout_height="46dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:fontFamily="@font/roboto_medium"
         android:onClick="gotoonem7website"
         android:text="Manufacturer Webpage"
@@ -20,7 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
     <TextView
         android:id="@+id/textView6"
@@ -42,31 +42,14 @@
         android:id="@+id/textView8"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
         android:text="Release: March 2013\nSIM Type: Micro SIM\nDisplay: 4.7' 1080x1920 LCD, Gorilla Glass 2\nStock Android Versions: 4.1.2 - 5.0 - HTC Sense\nCPU: Qualcomm Snapdragon 600 Quad Core 1.7GHz\nGPU: Adreno 320\nRAM: 2GB\nStorage: 32 or 64GB, No MicroSD Slot\nCamera: 4MP Autofocus, LED Flash\n- Video:1080p30, 720p60, HDR, Stereo\nBattery: Non-User Replacable 2300mAh Li-Po"
         android:textSize="14sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="0dp"
-        android:layout_height="46dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:fontFamily="@font/roboto_medium"
-        android:onClick="onem7rom"
-        android:text="ROMs"
-        android:textAllCaps="false"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
 </android.support.constraint.ConstraintLayout>
