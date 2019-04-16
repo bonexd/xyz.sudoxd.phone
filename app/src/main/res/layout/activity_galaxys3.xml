@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.sudoxd.phone.galaxys3">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="xyz.sudoxd.phone.galaxys3">
+
+        <TextView
+        android:id="@+id/textView36"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Release: May, 2012\nSIM Type: Micro SIM\nDisplay: 4.8' 720x1280 Super AMOLED, Gorilla Glass 2\nStock Android Versions: 4.0.4 - 4.3 - TouchWiz UI\nCPU: Exynos 4412 Quad Core 1.4 GHz\nGPU: Mali-400MP4\nRAM: 1GB\nStorage: 16, 32 or 64GB, microSD Expandable up to 64GB\nRear Camera: 8MP (f/2.6) Autofocus, LED Flash\n- Video: 1080p30\nFront Camera: 1.9MP (f/2.6)\nBattery: User Replaceable 2100mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: No\nCharging Port: microUSB "
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Release: September, 2012\nSIM Type: Micro SIM\nDisplay: 4.8' 720x1280 Super AMOLED, Gorilla Glass 2 \nStock Android Versions: 4.1.1 - 4.4.4 - TouchWiz UI \nCPU: Exynos 4412 Quad Core 1.4 GHz\nGPU: Mali-400MP4\nRAM: 2GB\nStorage: 16GB, microSD Expandable up to 64GB\nRear Camera: 8MP (f/2.6) Autofocus, LED Flash\n- Video: 1080p30\nFront Camera: 1.9MP (f/2.6)\nBattery: User Replaceable 2100mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: No\nCharging Port: microUSB "
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Samsung Galaxy S3 i9300"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Samsung Galaxy S3 LTE i9305"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:onClick="gotogalaxys3webpage"
+            android:text="Manufacturer Webpage"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
