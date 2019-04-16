@@ -75,6 +75,9 @@
         <activity
             android:name=".galaxys"
             android:parentActivityName=".galaxysseries" />
+        <activity
+            android:name=".galaxys2"
+            android:parentActivityName=".galaxysseries" />
     </application>
 
 </manifest>
