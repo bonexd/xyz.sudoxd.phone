@@ -102,6 +102,9 @@
             android:name=".galaxys8"
             android:parentActivityName=".galaxysseries" />
         <activity
+            android:name=".galaxys9"
+            android:parentActivityName=".galaxysseries" />
+        <activity
             android:name=".galaxycamera"
             android:parentActivityName=".galaxygcseries" />
         <activity
