@@ -53,7 +53,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/roboto_medium"
-            android:onClick="gotogalaxys3webpage"
+            android:onClick="gotogalaxys5webpage"
             android:text="Manufacturer Webpage"
             android:textAllCaps="false"
             app:layout_constraintBottom_toBottomOf="parent"

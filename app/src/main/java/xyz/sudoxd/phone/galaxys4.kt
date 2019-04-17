@@ -23,7 +23,7 @@ class galaxys4 : AppCompatActivity() {
         startActivity(launchBrowser)
     }
 
-    fun gotogalaxyswebpage(view: View) {
+    fun gotogalaxys4webpage(view: View) {
         goToUrl("https://web.archive.org/web/20130427071829/http://www.samsung.com/au/consumer/mobile-phone/mobile-phone/smartphone/GT-I9505ZKAXSA")
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))

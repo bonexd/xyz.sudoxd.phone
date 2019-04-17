@@ -23,12 +23,12 @@ class galaxys5 : AppCompatActivity() {
         startActivity(launchBrowser)
     }
 
-    fun gotogalaxyswebpage(view: View) {
+    fun gotogalaxys5webpage(view: View) {
         goToUrl("https://web.archive.org/web/20140813005031/http://www.samsung.com/au/consumer/mobile-phone/smartphone/smartphone/SM-G900IZDAXSA")
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
         } else {
-            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator)
         }
     }
 }
