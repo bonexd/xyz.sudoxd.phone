@@ -21,16 +21,15 @@ class galaxysseries : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
         } else {
-            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator)
         }
     }
-
     fun galaxys2(v: View) {
         startActivity(Intent(this, galaxys2::class.java))
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
         } else {
-            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator)
         }
     }
     fun galaxys3(v: View) {
@@ -38,7 +37,15 @@ class galaxysseries : AppCompatActivity() {
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
         } else {
-            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator)
+        }
+    }
+    fun galaxys4(v: View) {
+        startActivity(Intent(this, galaxys4::class.java))
+        if (Build.VERSION.SDK_INT >= 26) {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
+        } else {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator)
         }
     }
 }
