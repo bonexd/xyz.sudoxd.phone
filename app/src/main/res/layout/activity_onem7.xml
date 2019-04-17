@@ -45,7 +45,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:text="Release: March 2013\nSIM Type: Micro SIM\nDisplay: 4.7' 1080x1920 LCD, Gorilla Glass 2\nStock Android Versions: 4.1.2 - 5.0 - HTC Sense\nCPU: Qualcomm Snapdragon 600 Quad Core 1.7GHz\nGPU: Adreno 320\nRAM: 2GB\nStorage: 32 or 64GB, No MicroSD Slot\nCamera: 4MP Autofocus, LED Flash\n- Video:1080p30, 720p60, HDR, Stereo\nBattery: Non-User Replacable 2300mAh Li-Po"
+        android:text="Release: March 2013\nSIM Type: Micro SIM\nDisplay: 4.7' 1080x1920 LCD, Gorilla Glass 2\nStock Android Versions: 4.1.2 - 5.0 - HTC Sense\nCPU: Qualcomm Snapdragon 600 Quad Core 1.7GHz\nGPU: Adreno 320\nRAM: 2GB\nStorage: 32 or 64GB, No MicroSD Slot\nCamera: 4MP Autofocus, LED Flash\n- Video:1080p30, 720p60, HDR, Stereo\nBattery: Non-User Replacable 2300mAh Li-Po\nHeadphone Jack: Yes\nFingerprint Sensor: No\nCharging Port: microUSB"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"

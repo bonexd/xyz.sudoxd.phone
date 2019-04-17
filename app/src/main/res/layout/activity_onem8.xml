@@ -45,7 +45,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
-        android:text="Release: March 2014\nSIM Type: Nano SIM\nDisplay: 5.0' 1080x1920 LCD, Gorilla Glass 3\nStock Android Versions: 4.4.2 - 6.0 - HTC Sense\nCPU: Qualcomm Snapdragon 801 Quad Core 2.3GHz\nGPU: Adreno 330\nRAM: 2GB\nStorage: 16 or 32GB, Expandable via MicroSD to 256GB\nCamera: Dual 4MP Autofocus, Dual LED dual-tone Flash\n- Video:1080p60, 720p120, HDR, Stereo\nBattery: Non-User Replacable 2600mAh Li-Po"
+        android:text="Release: March 2014\nSIM Type: Nano SIM\nDisplay: 5.0' 1080x1920 LCD, Gorilla Glass 3\nStock Android Versions: 4.4.2 - 6.0 - HTC Sense\nCPU: Qualcomm Snapdragon 801 Quad Core 2.3GHz\nGPU: Adreno 330\nRAM: 2GB\nStorage: 16 or 32GB, Expandable via MicroSD to 256GB\nCamera: Dual 4MP Autofocus, Dual LED dual-tone Flash\n- Video:1080p60, 720p120, HDR, Stereo\nBattery: Non-User Replacable 2600mAh Li-Po\nHeadphone Jack: Yes\nFingerprint Sensor: No\nCharging Port: microUSB"
         android:textSize="14sp"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
