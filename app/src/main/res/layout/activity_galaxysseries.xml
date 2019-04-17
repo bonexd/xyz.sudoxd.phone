@@ -149,7 +149,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/roboto_medium"
-            android:onClick="galaxys"
+            android:onClick="galaxys8"
             android:text="Galaxy S8"
             android:textAllCaps="false"
             app:layout_constraintEnd_toEndOf="parent"
