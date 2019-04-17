@@ -35,7 +35,7 @@
             android:layout_marginStart="16dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
-            android:text="Using Global Single-SIM Model (G960F/G965F)\n\nRelease: February, 2018\nSIM Type: Nano SIM\nDisplay: 5.8' (6.2' on S9+) 1440x2960 Super AMOLED, 3D Touch on home button, Gorilla Glass 5\nStock Android Versions: 8.0 - 9.0 - One UI\nCPU: Exynos 9810 Octa Core (4x2.7GHz and 4x1.8GHz)\nGPU: Mali-G72 MP18\nRAM: 4GB (6GB on S9+)\nStorage: 64GB, microSD expandable to 400GB\nRear Camera: 12MP (f/1.5-2.4), (S9+ Only) 12MP Telephoto (f/2.4) w/ 2x Optical Zoom, Autofocus, OIS, HDR, LED Flash\n- Video: 2160p60, 1080p240, 720p960, HDR\nFront Camera: 8MP (f/1.7)\nBattery: Non User Replaceable 3000mAh (3500mAh on S8+) Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: Yes, Back\nCharging Port: Type-C, QI Charger "
+            android:text="Using Global Single-SIM Model (G960F/G965F)\n\nRelease: February, 2018\nSIM Type: Nano SIM\nDisplay: 5.8' (6.2' on S9+) 1440x2960 Super AMOLED, 3D Touch on home button, Gorilla Glass 5\nStock Android Versions: 8.0 - 9.0 - One UI\nCPU: Exynos 9810 Octa Core (4x2.7GHz and 4x1.8GHz)\nGPU: Mali-G72 MP18\nRAM: 4GB (6GB on S9+)\nStorage: 64GB, microSD expandable to 400GB\nRear Camera: 12MP (f/1.5-2.4), (S9+ Only) 12MP Telephoto (f/2.4) w/ 2x Optical Zoom, Autofocus, OIS, HDR, LED Flash\n- Video: 2160p60, 1080p240, 720p960, HDR\nFront Camera: 8MP (f/1.7)\nBattery: Non User Replaceable 3000mAh (3500mAh on S9+) Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: Yes, Back\nCharging Port: Type-C, QI Charger "
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
