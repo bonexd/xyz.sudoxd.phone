@@ -56,4 +56,12 @@ class galaxysseries : AppCompatActivity() {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator)
         }
     }
+    fun galaxys6(v: View) {
+        startActivity(Intent(this, galaxys6::class.java))
+        if (Build.VERSION.SDK_INT >= 26) {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
+        } else {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator)
+        }
+    }
 }

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.sudoxd.phone.galaxys6">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="xyz.sudoxd.phone.galaxys6">
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Release: March, 2015\nSIM Type: Nano SIM\nDisplay: Curved 5.1' 1440x2560 Super AMOLED, Gorilla Glass 4\nStock Android Versions: 5.0.2 - 7.0 - TouchWiz UI\nCPU: Exynos 7420 Octa Core (4x2.1GHz A57 and 4x1.5GHz A53\nGPU: Mali-T760MP8\nRAM: 3GB\nStorage: 32, 64 or 128GB\nRear Camera: 16MP (f/1.9) Autofocus, OIS, HDR, LED Flash\n- Video: 2160p30, 1080p60, 720p120, HDR\nFront Camera: 5MP (f/1.9)\nBattery: Non User Replaceable 2600mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: Yes, Front\nCharging Port: microUSB 3.0, QI Charger "
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView37" />
+
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Samsung Galaxy S6"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Samsung Galaxy S6 Edge"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Release: March, 2015\nSIM Type: Nano SIM\nDisplay: 5.1' 1440x2560 Super AMOLED, Gorilla Glass 4\nStock Android Versions: 5.0.2 - 8.0 - TouchWiz UI\nCPU: Exynos 7420 Octa Core (4x2.1GHz A57 and 4x1.5GHz A53\nGPU: Mali-T760MP8\nRAM: 3GB\nStorage: 32, 64 or 128GB\nRear Camera: 16MP (f/1.9) Autofocus, OIS, HDR, LED Flash\n- Video: 2160p30, 1080p60, 720p120, HDR\nFront Camera: 5MP (f/1.9)\nBattery: Non User Replaceable 2550mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: Yes, Front\nCharging Port: microUSB 3.0, QI Charger "
+
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:onClick="gotogalaxys6webpage"
+            android:text="Manufacturer Webpage"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>

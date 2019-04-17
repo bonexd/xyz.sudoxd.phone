@@ -117,7 +117,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="16dp"
             android:fontFamily="@font/roboto_medium"
-            android:onClick="galaxys"
+            android:onClick="galaxys6"
             android:text="Galaxy S6"
             android:textAllCaps="false"
             app:layout_constraintEnd_toEndOf="parent"
