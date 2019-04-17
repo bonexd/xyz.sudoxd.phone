@@ -14,7 +14,7 @@ class galaxys10 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_galaxys9)
+        setContentView(R.layout.activity_galaxys10)
     }
 
     private fun goToUrl(url: String) {
@@ -23,7 +23,7 @@ class galaxys10 : AppCompatActivity() {
         startActivity(launchBrowser)
     }
 
-    fun gotogalaxys9webpage(view: View) {
+    fun gotogalaxys10webpage(view: View) {
         goToUrl("https://www.samsung.com/au/smartphones/galaxy-s10/")
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
