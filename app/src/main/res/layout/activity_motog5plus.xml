@@ -45,7 +45,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
-        android:text="Using XT1687 (USA Variant) Specs\n\nRelease: February, 2017\nSIM Type: Nano-SIM\nDisplay: 5.2' 1080x1920 IPS LCD, Gorilla Glass 3\nStock Android Versions: 7.0 - 8.1 - LGUI\nCPU: Qualcomm Snapdragon 625 - Octa-core 2.0Ghz Cortex-A53\nGPU: Adreno 506\nRAM: 2/4GB\nStorage: 32GB, 64GB, microSD up to 256GB\nRear Camera: 12MP (f/1.7) Dual Pixel PDAF, dual-tone/dual-LED flash, Panorama\n- Video: 2160p30, 1080p60\nFront Camera: 5MP (f/2.2)\nBattery: Non User Replaceable 3000mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: Yes, Front\nCharging Port: microUSB"
+        android:text="Using XT1687 (USA Variant) Specs\n\nRelease: February, 2017\nSIM Type: Nano-SIM\nDisplay: 5.2' 1080x1920 IPS LCD, Gorilla Glass 5\nStock Android Versions: 7.0 - 8.1 - AOSP\nCPU: Qualcomm Snapdragon 625 - Octa-core 2.0Ghz Cortex-A53\nGPU: Adreno 506\nRAM: 2/4GB\nStorage: 32GB, 64GB, microSD up to 256GB\nRear Camera: 12MP (f/1.7) Dual Pixel PDAF, dual-tone/dual-LED flash, Panorama\n- Video: 2160p30, 1080p60\nFront Camera: 5MP (f/2.2)\nBattery: Non User Replaceable 3000mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: Yes, Front\nCharging Port: microUSB"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
