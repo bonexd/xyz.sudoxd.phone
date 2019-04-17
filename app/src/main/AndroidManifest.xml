@@ -97,6 +97,12 @@
         <activity
             android:name=".tabletmain"
             android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".galaxyfold"
+            android:parentActivityName=".galaxyfoldseries" />
+        <activity
+            android:name=".galaxyfoldseries"
+            android:parentActivityName=".samsungmain" />
     </application>
 
 </manifest>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.sudoxd.phone.galaxyfold">
+
+    <Button
+        android:id="@+id/button58"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:onClick="gotogalaxyfoldwebpage"
+        android:text="Manufacturer Webpage"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView36" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:text="Release: April, 2019\nSIM Type: Nano SIM, eSIM\nUnfolded Display: 7.3' 1536x2152 Dynamic AMOLED\nFolded Display: 4.6' 720x1680, Super AMOLED\nStock Android Versions: 9.0 - TouchWiz UI\nCPU: Snapdragon 855 Octa Core (1x2.84GHz, 3x2.41GHz, 4x1.78GHz)\nGPU: Adreno 640\nRAM: 12GB\nStorage: 512GB\nRear Camera: Triple Lens, 12MP Wide (f/1.5-2.4), 12MP Telephoto (f/2.4), 16MP Ultrawide (f/2.2), AF, Flash, HDR\n- Video: 2160p60, 1080p60/240, 720p960, HDR10, EIS\nFront Camera: Dual Lens, 10MP Wide (f/2.2), 8MP Wide (f/1.9)\nFolded Front Camera: 10MP (f/2.2)\nBattery: Non User Replaceable 4380mAh Li-Po\nHeadphone Jack: No\nFingerprint Sensor: Yes, Side\nCharging Port: USB-C "
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="Samsung Galaxy Fold"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
