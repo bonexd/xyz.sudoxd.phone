@@ -53,4 +53,5 @@
     <string name="motogseries">Moto G Series</string>
     <string name="title_activity_samsungsseries">samsungsseries</string>
     <string name="versionname">$versionName</string>
+    <string name="title_activity_tabletmain">tabletmain</string>
 </resources>

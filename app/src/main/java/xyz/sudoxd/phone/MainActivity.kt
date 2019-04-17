@@ -42,6 +42,15 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    fun mainpagetablet(v: View) {
+        startActivity(Intent(this, tabletmain::class.java))
+        if (Build.VERSION.SDK_INT >= 26) {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
+        } else {
+            (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(30)
+        }
+    }
+
 
     fun GitHub(view: View) {
         goToUrl("https://github.com/sudoxd/xyz.sudoxd.phone")
