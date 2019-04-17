@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xyz.sudoxd.phone.galaxys10">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="xyz.sudoxd.phone.galaxys10">
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Samsung Galaxy S10(+)"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Using Global Single-SIM Model (G973F/G975F)\n\nRelease: February, 2019\nSIM Type: Nano SIM\nDisplay: 6.1' (6.4' on S10+) 1440x3040 Dynamic AMOLED, Gorilla Glass 6\nStock Android Versions: 9.0 - One UI\nCPU: Exynos 9820 Octa Core (2x2.73GHz, 2x2.31 and 4x1.95GHz)\nGPU: Mali-G76 MP12\nRAM: 8GB \nStorage: 128 or 512GB\nRear Camera: 12MP Wide (f/1.5-2.4), 12MP Telephoto (f/2.4), 16MP Ultrawide (f/2.2), Autofocus, OIS, HDR, LED Flash\n- Video: 2160p60, 1080p240, 720p960, HDR\nFront Camera: 10MP (f/1.9), (S10+ Only) 8MP (f/2.2)\nBattery: Non User Replaceable 3400mAh (4100mAh on S10+) Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: Yes, Under Display\nCharging Port: Type-C, QI Charger "
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+        <TextView
+            android:id="@+id/textView49"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Samsung Galaxy S10e"
+            android:textAlignment="textStart"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView39" />
+
+        <TextView
+            android:id="@+id/textView50"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:text="Using Global Single-SIM Model (G970F)\n\nRelease: March, 2019\nSIM Type: Nano SIM\nDisplay: 5.8' 1080x2280 Dynamic AMOLED, Gorilla Glass 5\nStock Android Versions: 9.0 - One UI\nCPU: Exynos 9820 Octa Core (2x2.73GHz, 2x2.31 and 4x1.95GHz)\nGPU: Mali-G76 MP12\nRAM: 6GB \nStorage: 128GB\nRear Camera: 12MP Wide (f/1.5-2.4), 16MP Ultrawide (f/2.2), Autofocus, OIS, HDR, LED Flash\n- Video: 2160p60, 1080p240, 720p960, HDR\nFront Camera: 10MP (f/1.9)\nBattery: Non User Replaceable 3100mAh Li-Ion\nHeadphone Jack: Yes\nFingerprint Sensor: Yes, Side\nCharging Port: Type-C, QI Charger "
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/roboto_medium"
+            android:onClick="gotogalaxys9webpage"
+            android:text="Manufacturer Webpage"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView50" />
+
+
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
