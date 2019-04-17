@@ -25,7 +25,7 @@ class onem9 : AppCompatActivity() {
     }
 
     fun gotoonem9website(view: View) {
-        goToUrl("https://web.archive.org/web/20150905111648/http://www.htc.com/us/smartphones/htc-one-m8/")
+        goToUrl("https://web.archive.org/web/20150905114447/http://www.htc.com/us/smartphones/htc-one-m9/")
         if (Build.VERSION.SDK_INT >= 26) {
             (getSystemService(Context.VIBRATOR_SERVICE) as Vibrator).vibrate(VibrationEffect.createOneShot(30, VibrationEffect.DEFAULT_AMPLITUDE))
         } else {
