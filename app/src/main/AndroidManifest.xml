@@ -53,6 +53,9 @@
             android:name=".pixel"
             android:parentActivityName=".pixelseries" />
         <activity
+            android:name=".pixel2"
+            android:parentActivityName=".pixelseries" />
+        <activity
             android:name=".googlemain"
             android:parentActivityName=".rom" />
         <activity
