@@ -9,7 +9,6 @@ import android.os.Vibrator
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import xyz.sudoxd.phone.R
 
 class onem9 : AppCompatActivity() {
 
@@ -17,13 +16,11 @@ class onem9 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_onem9)
     }
-
     private fun goToUrl(url: String) {
         val uriUrl = Uri.parse(url)
         val launchBrowser = Intent(Intent.ACTION_VIEW, uriUrl)
         startActivity(launchBrowser)
     }
-
     fun gotoonem9website(view: View) {
         goToUrl("https://web.archive.org/web/20150905114447/http://www.htc.com/us/smartphones/htc-one-m9/")
         if (Build.VERSION.SDK_INT >= 26) {
