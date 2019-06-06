@@ -10,7 +10,7 @@ android {
         targetSdkVersion 'Q'
         versionCode 99999999
         // version code: yyyymmddhh. only increase version code on full release builds.
-        versionName "1.3.5-prerelease"
+        versionName "1.3.5.1-prerelease"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         setProperty("archivesBaseName", applicationId + "-" + getDate() + "-" + versionName)
     }
