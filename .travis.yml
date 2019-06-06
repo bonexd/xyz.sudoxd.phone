@@ -8,13 +8,13 @@ android:
     - build-tools-29.0.0
 
     # SDK Version for Testing on
-    - android-29
+    - android-Q
 
     # Additional components
     - extra-google-google_play_services
     - extra-google-m2repository
     - extra-android-m2repository
-    - sys-img-armeabi-v7a-android-29
+    - sys-img-armeabi-v7a-android-28
 
 script:
   - ./gradlew assemble
