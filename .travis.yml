@@ -8,7 +8,7 @@ android:
     - build-tools-29.0.0
 
     # SDK Version for Testing on
-    - 29
+    - 28
 
     # Additional components
     - extra-google-google_play_services
