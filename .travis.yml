@@ -16,6 +16,9 @@ android:
     - extra-android-m2repository
     - sys-img-armeabi-v7a-android-28
 
+before_install:
+  - yes | sdkmanager "platforms;android-29"
+
 script:
   - ./gradlew assemble
   - ./gradlew assembleNightlyDebug
