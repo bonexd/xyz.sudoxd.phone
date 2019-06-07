@@ -3,7 +3,7 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 'android-Q'
+    compileSdkVersion 29
     defaultConfig {
         applicationId "xyz.sudoxd.phone"
         minSdkVersion 21
