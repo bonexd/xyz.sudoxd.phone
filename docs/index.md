@@ -3,10 +3,10 @@
 ### what is it?
 an app that has android devices and stuff. barely gets updated or worked on, just be patient. if you want your own device there make an issue and ill get around to it
 
-### versions
+### Current Versions
 ![GitHub](https://img.shields.io/badge/Full%20Release-v1.3.4-green.svg) |
-![GitHub](https://img.shields.io/badge/Pre%20Release-v1.3.5.1%20prerelease-orange.svg) |
-![GitHub](https://img.shields.io/badge/Nightly-v1.3.5.1%20prerelease-red.svg)
+![GitHub](https://img.shields.io/badge/Pre%20Release-v1.3.5.1--prerelease-orange.svg) |
+![GitHub](https://img.shields.io/badge/Nightly-v1.3.5.1--prerelease-red.svg)
 
 ### Downloads
 [Stable Releases](https://github.com/sudoxd/sudos-cool-phone-directory/releases)
@@ -16,7 +16,7 @@ an app that has android devices and stuff. barely gets updated or worked on, jus
 ### Installation
 Find out how to install [here](installation.md)
 
-### license
+### License
 ![Github](https://img.shields.io/badge/license-GPL%203.0-green.svg)
 
                     GNU GENERAL PUBLIC LICENSE
