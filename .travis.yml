@@ -21,7 +21,6 @@ before_install:
 
 script:
   - ./gradlew assemble
-  - ./gradlew assembleNightlyDebug
 
 after_success:
   - wget https://raw.githubusercontent.com/DiscordHooks/travis-ci-discord-webhook/master/send.sh
