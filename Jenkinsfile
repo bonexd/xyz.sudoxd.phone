@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Accept Android SDK Licenses') {
             steps {
-                sh 'echo y | $ANDROID_HOME/bin/sdkmanager --licenses'
+                sh 'echo y | $ANDROID_HOME/tools/bin/sdkmanager --licenses'
             }
         }
         stage('Build with Gradle') {
